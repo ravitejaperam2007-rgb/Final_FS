@@ -1,0 +1,16 @@
+{
+  "database": {
+    "fleet_query_ms": 0.3648340000654571,
+    "point_lookup_ms": 0.1440990000264719
+  },
+  "machine_learning": {
+    "full_ml_shap_ms": 7.793410000158474,
+    "raw_booster_ms": 1.8906979999155737
+  },
+  "weather_cache": {
+    "cached_weather_ms": 2.28196600015508
+  },
+  "multi_agent_swarm": {
+    "avg_swarm_cycle_ms": 80.71349999712159
+  }
+}

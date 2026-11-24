@@ -1,0 +1,54 @@
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Environment & Secrets (Never commit actual credentials)
+.env
+.env.local
+*.pem
+*.key
+
+# SQLite Database & Storage
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/aware_ai.db
+data/raw/*
+data/processed/*
+
+# Test, Cache & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+test_output.txt
+
+# Logs
+logs/*.log
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+desktop.ini

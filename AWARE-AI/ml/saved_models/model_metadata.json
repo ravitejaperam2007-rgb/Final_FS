@@ -1,0 +1,17 @@
+{
+  "model_name": "LightGBM_ShipmentDelayPredictor",
+  "version": "2.1.0",
+  "feature_names": [
+    "route_distance_nm",
+    "weight_kg",
+    "priority_level",
+    "supplier_reliability",
+    "supplier_lead_time_days",
+    "weather_severity_code",
+    "wind_speed_kmh",
+    "precipitation_mm",
+    "inventory_stockout_risk",
+    "departure_month",
+    "departure_dow"
+  ]
+}
